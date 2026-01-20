@@ -15,7 +15,7 @@
         <div class="flex items-center justify-center h-screen bg-blue-100">
             <div>
 
-                <div class="grid grid-cols-3 bg-red-300 p-8 rounded-xl">
+                <div class="grid grid-cols-3 bg-red-600 p-8 rounded-xl">
                     <div v-for="(row, rowIndex) in boardCells" :key="rowIndex">
                         <div v-for="(cell, colIndex) in row" :key="colIndex" @click="cellClicked(rowIndex, colIndex)"
                             class="flex items-center
@@ -118,3 +118,4 @@
 </body>
 
 </html>
+
